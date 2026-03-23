@@ -68,6 +68,8 @@ Crop-Recommendation-System/
 
 │── crop_model.pkl
 
+│── Screenshot.png
+
 │── README.md
 
 # 🚀 How to Run
@@ -82,6 +84,12 @@ python main.py
 1. Add GUI using Streamlit
 2. Integrate real-time weather data
 3. Deploy as a web app
+
+## 📸 Sample Run (Input & Output)
+
+![Crop Recommendation Output](Screenshot.png)
+
+
 # 👨‍💻 Author
 Name- Tavishi Garg
 
