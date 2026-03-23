@@ -70,6 +70,8 @@ Crop-Recommendation-System/
 
 │── Screenshot.png
 
+│── project report.docx
+
 │── README.md
 
 # 🚀 How to Run
