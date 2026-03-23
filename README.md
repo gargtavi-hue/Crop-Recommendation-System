@@ -1,39 +1,49 @@
 # 🌾 Crop Recommendation System using Machine Learning
 
+> An intelligent system that recommends the most suitable crop based on soil and environmental conditions.
+
+---
+
 ## 📌 Problem Statement
-Farmers often face difficulty in deciding which crop to grow based on soil and environmental conditions. This project aims to solve this problem using Machine Learning.
+Farmers often struggle to decide which crop to grow due to varying soil nutrients and climate conditions.  
+This project uses Machine Learning to provide accurate crop recommendations.
 
-## 💡 Solution
-This system predicts the most suitable crop based on input features like:
-- Nitrogen (N)
-- Phosphorus (P)
-- Potassium (K)
-- Temperature
-- Humidity
-- pH
-- Rainfall
+---
 
-## ⚙️ Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- Random Forest Algorithm
+## 💡 Features
+✅ Predicts best crop based on input conditions  
+✅ Uses Random Forest ML algorithm  
+✅ High accuracy (~99%)  
+✅ Simple and interactive user input  
+✅ Clean and readable output  
 
-## 📊 Dataset
-Crop Recommendation Dataset (Kaggle)
+---
 
-## 🚀 How to Run
-1. Install required libraries:
+## ⚙️ Tech Stack
+- 🐍 Python  
+- 📊 Pandas  
+- 🤖 Scikit-learn  
+- 📈 Matplotlib  
 
-pip install pandas numpy scikit-learn
+---
 
-2. Run the program:
+## 📊 Input Parameters
 
-python main.py
+| Feature       | Description                  |
+|--------------|-----------------------------|
+| Nitrogen (N) | Soil nitrogen content       |
+| Phosphorus (P)| Soil phosphorus content    |
+| Potassium (K)| Soil potassium content      |
+| Temperature  | In °C                       |
+| Humidity     | In %                        |
+| pH           | Soil pH value               |
+| Rainfall     | In mm                       |
 
+---
 
-## 🧪 Example Input
+## 🧪 Example Run
 
+```bash
 Nitrogen: 90
 Phosphorus: 42
 Potassium: 43
@@ -41,30 +51,42 @@ Temperature: 21
 Humidity: 82
 pH: 6.5
 Rainfall: 200
+✅ Output
+🌾 CROP RECOMMENDATION RESULT
+✅ Recommended Crop: RICE
+💡 Suggestion: Ensure high water availability for best yield.
+📈 Model Performance
+Algorithm: Random Forest Classifier
+Accuracy: ~99%
+```
+# 📂 Project Structure
+Crop-Recommendation-System/
 
+│── main.py
 
-## ✅ Output
+│── Crop_recommendation.csv
 
-🌱 Recommended Crop: rice
+│── crop_model.pkl
 
+│── README.md
 
-## 📈 Model Accuracy
-~99%
+# 🚀 How to Run
+Install dependencies:
 
-## 📂 Project Structure
+pip install pandas numpy scikit-learn matplotlib
 
-├── main.py
-├── Crop_recommendation.csv
-├── crop_model.pkl
-├── README.md
+Run the program:
 
+python main.py
+# 🔮 Future Improvements
+1. Add GUI using Streamlit
+2. Integrate real-time weather data
+3. Deploy as a web app
+# 👨‍💻 Author
+Name- Tavishi Garg
 
-## 🔮 Future Improvements
-- Add graphical user interface (GUI)
-- Deploy as web application
-- Use real-time weather data
+Branch- CSE AI ML
 
-## 👨‍💻 Author
-TAVISHI GARG
+Course- FUNDAMENTALS IN AI AND ML
 
-25BAI10085
+REG NO.- 25BAI10085
